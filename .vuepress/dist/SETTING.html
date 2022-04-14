@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>配置指南</title>
+    <meta name="generator" content="VuePress 1.9.7">
+    
+    <meta name="description" content="">
+    
+    <link rel="preload" href="/assets/css/0.styles.a2f7be03.css" as="style"><link rel="preload" href="/assets/js/app.29fa728e.js" as="script"><link rel="preload" href="/assets/js/2.cd527354.js" as="script"><link rel="preload" href="/assets/js/12.b17ca0e7.js" as="script"><link rel="prefetch" href="/assets/js/10.b625b0e4.js"><link rel="prefetch" href="/assets/js/11.cdfa9b27.js"><link rel="prefetch" href="/assets/js/13.48eda46f.js"><link rel="prefetch" href="/assets/js/14.4833dae8.js"><link rel="prefetch" href="/assets/js/15.c7debcc7.js"><link rel="prefetch" href="/assets/js/3.78373d06.js"><link rel="prefetch" href="/assets/js/4.4e81c9b8.js"><link rel="prefetch" href="/assets/js/5.93033b05.js"><link rel="prefetch" href="/assets/js/6.05ed86ef.js"><link rel="prefetch" href="/assets/js/7.dc6d9323.js"><link rel="prefetch" href="/assets/js/8.8b092fc2.js"><link rel="prefetch" href="/assets/js/9.4b8d140f.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.a2f7be03.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container no-sidebar"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <!----></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><!---->  <!----> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="配置指南"><a href="#配置指南" class="header-anchor">#</a> 配置指南</h1> <h2 id="配置文件预览"><a href="#配置文件预览" class="header-anchor">#</a> 配置文件预览</h2> <div class="language- extra-class"><pre class="language-text"><code>#BUFF宝石
+#格式: &quot;宝石识别lore&quot;: &quot;BUFF效果识别lore&quot;
+gem:
+  &quot;&amp;b&amp;l速度I&quot;: &quot;&amp;6[&amp;c&amp;lBUFF&amp;6] &amp;b速度I&quot;
+#可镶嵌白名单
+whitelist:
+  - &quot;DIAMOND_SWORD&quot;
+  - &quot;DIAMOND_AXE&quot;
+#强化完成提示
+finish: &quot;&amp;a强化成功&quot;
+#已含有该lore提示
+error: &quot;&amp;c强化失败 该物品已含有此属性&quot;
+#非白名单物品强化提示
+invaild: &quot;&amp;c该物品不支持强化&quot;
+#强化完成播放声音
+sound: &quot;BLOCK_ANVIL_PLACE&quot;
+#检测lore给予药水效果
+#格式: (支持多个药水效果)
+#&quot;BUFF效果识别lore&quot;:
+#  - &quot;药水ID:等级&quot;
+#药水ID可前往 https://hub.spigotmc.org/javadocs/spigot/org/bukkit/potion/PotionEffectType.html 查看
+#等级最高仅支持1-255 (原版限制)
+effect:
+  &quot;&amp;6[&amp;c&amp;lBUFF&amp;6] &amp;b速度I&quot;:
+    - &quot;SPEED:1&quot;
+
+#Buff移除
+remove: true
+#Buff移除界面标题
+title: &quot;&amp;8[&amp;bBUFF移除面板&amp;8]&quot;
+#移除Buff宝石lore提示:
+removehelp: &quot;&amp;e - 点击移除BUFF&quot;
+#移除Buff时 背包空间已满提示
+nospace: &quot;&amp;c背包空间不足 无法移除BUFF&quot;
+#上一页按钮
+backpage: &quot;&amp;f上一页&quot;
+#下一页按钮
+nextpage: &quot;&amp;f下一页&quot;
+#配置版本(不要修改)
+config-version: &quot;1.1.0&quot;
+</code></pre></div><br> <h2 id="重要解析"><a href="#重要解析" class="header-anchor">#</a> 重要解析</h2> <ul><li>gem: 配置镶嵌宝石识别lore和需要镶嵌的lore</li> <li>whitelist: 配置可镶嵌物品</li> <li>effect: 配置BUFF效果识别lore和对应给予的药水效果</li> <li>config-version: 配置文件版本 通常与插件版本对应(请勿修改)</li></ul> <br> <h2 id="下一页"><a href="#下一页" class="header-anchor">#</a> 下一页</h2> <p>恭喜你 你已经完成了配置 步骤 快去学习镶嵌吧
+<a href="/GEM.html">镶嵌帮助</a></p> <br></div> <footer class="page-edit"><!----> <!----></footer> <!----> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.29fa728e.js" defer></script><script src="/assets/js/2.cd527354.js" defer></script><script src="/assets/js/12.b17ca0e7.js" defer></script>
+  </body>
+</html>
