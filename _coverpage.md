@@ -2,7 +2,7 @@
 
 <h1><b>FlyBuff Wiki</b></h1>
 
-> 一款轻量的RPG药水镶嵌系统
+> 一款轻量的宝石镶嵌系统
 
 文档由 FlyProject 维护更新
 

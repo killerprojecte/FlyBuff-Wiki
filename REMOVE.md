@@ -27,6 +27,23 @@
     type: PLAYER_HEAD
     #头颅材质(仅支持PLAYER_HEAD或SKULL_ITEM使用)
     texture: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTAzMjdmYjM0MzE5Zjg5YWM1YWI0OGI0ZDc5MjUxZjEzZjA2N2ViZWE3ZGE1Zjg4Yjc1ZjQ3OWE3Mzg5OTI0ZSJ9fX0="
+ 
+  nbtgems:
+  #此处填药水效果ID
+  "testbuff":
+    #mode:
+    ##make -- 新建物品(不支持NBT)
+    ##stack -- 使用ItemStack生成(支持NBT) [使用 /buffitem <名称> 保存 不支持输入lore请手动修改]
+    mode: make
+    #物品名称
+    display: "&7NBT演示移除药水"
+    #物品lore
+    lores:
+      - "&fNBT演示BUFF"
+    #物品TYPE
+    type: PLAYER_HEAD
+    #头颅材质(仅支持PLAYER_HEAD或SKULL_ITEM使用)
+    texture: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTAzMjdmYjM0MzE5Zjg5YWM1YWI0OGI0ZDc5MjUxZjEzZjA2N2ViZWE3ZGE1Zjg4Yjc1ZjQ3OWE3Mzg5OTI0ZSJ9fX0="
   ```
 - 重载配置
 

@@ -18,7 +18,8 @@
 
   ```
     gem:
-       "&f演示BUFF": "&f演示效果"
+       "&f演示BUFF": "[lore] &f演示效果"
+       "&fNBT演示BUFF": "[nbt] testbuff"
   ```
 
 ### 效果配置
@@ -26,7 +27,10 @@
   ```
     effect:
       "&f演示效果":
-        - "SPEED:1"
+        - "[buff] SPEED:1"
+    nbteffet:
+      "testbuff":
+        - "[buff] SPEED:1"
   ```
 
 <br />

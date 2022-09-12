@@ -12,9 +12,9 @@
 
 ## 介绍
 
-**一个轻量的RPG药水镶嵌解决方案**
+**一个轻量的RPG宝石镶嵌解决方案**
 
-FlyBuff 是 Fly系列插件的一员，FlyBuff是一个面向公众的免费插件 且代码开源
+FlyBuff 是一个轻量宝石镶嵌解决方案 且代码开源
 
 本插件所实现的功能 在各大RPG服务器中均有出现 但是我们是免费的
 
@@ -48,9 +48,7 @@ Github 反馈：[https://github.com/killerprojecte/FlyBuff/issues](https://githu
 
 ## 软件支持
 
-我们提供对Bukkit 1.13+的稳定支持
-
-Bukkit 1.12.2及以下还在进行公众测试
+我们提供对Bukkit 1.8+ 支持
 
 <br />
 
